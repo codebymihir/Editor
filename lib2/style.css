@@ -1,0 +1,44 @@
+
+body {font-family: Arial, Helvetica, sans-serif;}
+
+/* Full-width input fields */
+
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+
+.background-model{
+	background-color: #ccc;
+    background-size: cover;
+    background-repeat: round;
+    position: fixed; /* Stay in place */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+     /* Black w/ opacity */
+    padding-top: 0px;    
+    box-sizing: border-box;
+}
+
+.login-register{
+  border: 2px solid #fff;
+  width:max-content;
+  margin: 10% auto 15% auto;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 30px;
+}
